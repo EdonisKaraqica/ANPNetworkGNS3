@@ -1,0 +1,18 @@
+Jan 17 23:24:15.419 HYPERVISOR: Release 0.2.14-x86/Windows (tag 2014092320)
+Jan 17 23:24:15.420 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 16387.
+Jan 17 23:24:15.563 HYPERVISOR: exec_cmd: hypervisor version 
+Jan 17 23:24:15.599 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\Edonis Karaçica\Desktop\Tema e Diplomes\Rrjeta\Aeroporti i Prishtines\project-files\dynamips 
+Jan 17 23:24:15.599 GENERAL: working_dir=C:\Users\Edonis Karaçica\Desktop\Tema e Diplomes\Rrjeta\Aeroporti i Prishtines\project-files\dynamips
+Jan 17 23:24:15.620 HYPERVISOR: exec_cmd: ethsw create SW1 
+Jan 17 23:24:18.210 HYPERVISOR: exec_cmd: nio create_udp udp-49a44e54-6737-42bc-855b-54267e3343f5 10032 127.0.0.1 10033 
+Jan 17 23:24:18.229 HYPERVISOR: exec_cmd: ethsw add_nio SW1 udp-49a44e54-6737-42bc-855b-54267e3343f5 
+Jan 17 23:24:18.257 HYPERVISOR: exec_cmd: ethsw set_dot1q_port SW1 udp-49a44e54-6737-42bc-855b-54267e3343f5 400 
+Jan 17 23:24:18.314 HYPERVISOR: exec_cmd: nio create_udp udp-0ea01187-0ff7-4a31-88af-75bf839a3970 10036 127.0.0.1 10037 
+Jan 17 23:24:18.341 HYPERVISOR: exec_cmd: ethsw add_nio SW1 udp-0ea01187-0ff7-4a31-88af-75bf839a3970 
+Jan 17 23:24:18.376 HYPERVISOR: exec_cmd: ethsw set_dot1q_port SW1 udp-0ea01187-0ff7-4a31-88af-75bf839a3970 200 
+Jan 17 23:24:18.669 HYPERVISOR: exec_cmd: nio create_udp udp-e00c03b8-ffcb-445d-bc4f-1f5dc8d34423 10049 127.0.0.1 10048 
+Jan 17 23:24:18.691 HYPERVISOR: exec_cmd: ethsw add_nio SW1 udp-e00c03b8-ffcb-445d-bc4f-1f5dc8d34423 
+Jan 17 23:24:18.710 HYPERVISOR: exec_cmd: ethsw set_dot1q_port SW1 udp-e00c03b8-ffcb-445d-bc4f-1f5dc8d34423 200 
+Jan 17 23:24:18.747 HYPERVISOR: exec_cmd: nio create_udp udp-0ea1dcc3-ac79-4391-8ebb-2dcce37ac284 10051 127.0.0.1 10050 
+Jan 17 23:24:18.772 HYPERVISOR: exec_cmd: ethsw add_nio SW1 udp-0ea1dcc3-ac79-4391-8ebb-2dcce37ac284 
+Jan 17 23:24:18.787 HYPERVISOR: exec_cmd: ethsw set_dot1q_port SW1 udp-0ea1dcc3-ac79-4391-8ebb-2dcce37ac284 400 

@@ -1,0 +1,101 @@
+Jan 09 21:46:20.210 HYPERVISOR: Release 0.2.14-x86/Windows (tag 2014092320)
+Jan 09 21:46:20.211 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 6003.
+Jan 09 21:46:20.223 HYPERVISOR: exec_cmd: hypervisor version 
+Jan 09 21:46:20.229 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\Edonis Karaçica\Desktop\Tema e Diplomes\Rrjeta\Aeroporti i Prishtines\project-files\dynamips 
+Jan 09 21:46:20.229 GENERAL: working_dir=C:\Users\Edonis Karaçica\Desktop\Tema e Diplomes\Rrjeta\Aeroporti i Prishtines\project-files\dynamips
+Jan 09 21:46:20.234 HYPERVISOR: exec_cmd: vm create ESW1 8 c3600 
+Jan 09 21:46:20.278 VM: VM ESW1 created.
+Jan 09 21:46:20.287 HYPERVISOR: exec_cmd: vm set_con_tcp_port ESW1 5007 
+Jan 09 21:46:20.303 HYPERVISOR: exec_cmd: c3600 get_mac_addr ESW1 
+Jan 09 21:46:20.311 HYPERVISOR: exec_cmd: vm get_status ESW1 
+Jan 09 21:46:20.319 HYPERVISOR: exec_cmd: vm slot_add_binding ESW1 0 0 NM-1FE-TX 
+Jan 09 21:46:20.328 HYPERVISOR: exec_cmd: vm set_ios ESW1 C:/Users/Edonis Karaçica/GNS3/images/IOS/c3640-ik9o3s-mz124-13.image 
+Jan 09 21:46:20.334 HYPERVISOR: exec_cmd: vm get_status ESW1 
+Jan 09 21:46:20.339 HYPERVISOR: exec_cmd: vm slot_add_binding ESW1 1 0 NM-16ESW 
+Jan 09 21:46:20.344 HYPERVISOR: exec_cmd: vm get_status ESW1 
+Jan 09 21:46:20.349 HYPERVISOR: exec_cmd: vm slot_add_binding ESW1 2 0 NM-1E 
+Jan 09 21:46:20.354 HYPERVISOR: exec_cmd: vm set_disk0 ESW1 1 
+Jan 09 21:46:20.359 HYPERVISOR: exec_cmd: vm set_exec_area ESW1 64 
+Jan 09 21:46:20.363 HYPERVISOR: exec_cmd: vm set_ram ESW1 256 
+Jan 09 21:46:20.368 HYPERVISOR: exec_cmd: vm get_status ESW1 
+Jan 09 21:46:20.373 HYPERVISOR: exec_cmd: vm set_idle_pc ESW1 0x60672c68 
+Jan 09 21:46:20.378 HYPERVISOR: exec_cmd: vm set_nvram ESW1 256 
+Jan 09 21:46:20.412 HYPERVISOR: exec_cmd: vm set_config ESW1 configs/i8_startup-config.cfg 
+Jan 09 21:58:34.501 HYPERVISOR: exec_cmd: vm rename ESW1 VTPServer 
+Jan 09 21:59:26.933 HYPERVISOR: exec_cmd: vm rename VTPServer VTPServer2 
+Jan 09 22:11:17.237 HYPERVISOR: exec_cmd: nio create_udp udp-1514ec28-7811-4095-9a54-69f07bffccbb 10009 127.0.0.1 10008 
+Jan 09 22:11:17.248 HYPERVISOR: exec_cmd: vm slot_add_nio_binding VTPServer2 0 0 udp-1514ec28-7811-4095-9a54-69f07bffccbb 
+Jan 09 22:11:17.258 HYPERVISOR: exec_cmd: vm get_status VTPServer2 
+Jan 09 22:11:59.990 HYPERVISOR: exec_cmd: nio create_udp udp-5a5c513c-e89f-43f4-ad88-80ee3e771c1b 10014 127.0.0.1 10015 
+Jan 09 22:12:00.006 HYPERVISOR: exec_cmd: vm slot_add_nio_binding VTPServer2 1 1 udp-5a5c513c-e89f-43f4-ad88-80ee3e771c1b 
+Jan 09 22:12:00.018 HYPERVISOR: exec_cmd: vm get_status VTPServer2 
+Jan 09 22:12:03.950 HYPERVISOR: exec_cmd: nio create_udp udp-a209630d-b7d7-42af-b7fa-27ce069e883e 10016 127.0.0.1 10017 
+Jan 09 22:12:03.965 HYPERVISOR: exec_cmd: vm slot_add_nio_binding VTPServer2 1 2 udp-a209630d-b7d7-42af-b7fa-27ce069e883e 
+Jan 09 22:12:03.973 HYPERVISOR: exec_cmd: vm get_status VTPServer2 
+Jan 09 23:07:27.493 HYPERVISOR: exec_cmd: vm get_status VTPServer2 
+Jan 09 23:07:27.564 HYPERVISOR: exec_cmd: vm slot_remove_nio_binding VTPServer2 0 0 
+Jan 09 23:07:27.570 HYPERVISOR: exec_cmd: nio delete udp-1514ec28-7811-4095-9a54-69f07bffccbb 
+Jan 09 23:07:30.479 HYPERVISOR: exec_cmd: vm get_status VTPServer2 
+Jan 09 23:07:30.493 HYPERVISOR: exec_cmd: vm slot_remove_nio_binding VTPServer2 1 2 
+Jan 09 23:07:30.505 HYPERVISOR: exec_cmd: nio delete udp-a209630d-b7d7-42af-b7fa-27ce069e883e 
+Jan 09 23:07:32.709 HYPERVISOR: exec_cmd: vm get_status VTPServer2 
+Jan 09 23:07:32.723 HYPERVISOR: exec_cmd: vm slot_remove_nio_binding VTPServer2 1 1 
+Jan 09 23:07:32.733 HYPERVISOR: exec_cmd: nio delete udp-5a5c513c-e89f-43f4-ad88-80ee3e771c1b 
+Jan 09 23:08:01.917 HYPERVISOR: exec_cmd: nio create_udp udp-6e77df75-5887-4ed7-a70b-79a39649b925 10008 127.0.0.1 10009 
+Jan 09 23:08:01.932 HYPERVISOR: exec_cmd: vm slot_add_nio_binding VTPServer2 1 1 udp-6e77df75-5887-4ed7-a70b-79a39649b925 
+Jan 09 23:08:01.941 HYPERVISOR: exec_cmd: vm get_status VTPServer2 
+Jan 09 23:08:10.440 HYPERVISOR: exec_cmd: nio create_udp udp-7420694c-0e12-4759-9735-48f992bdff8d 10014 127.0.0.1 10015 
+Jan 09 23:08:10.456 HYPERVISOR: exec_cmd: vm slot_add_nio_binding VTPServer2 1 2 udp-7420694c-0e12-4759-9735-48f992bdff8d 
+Jan 09 23:08:10.465 HYPERVISOR: exec_cmd: vm get_status VTPServer2 
+Jan 09 23:08:13.904 HYPERVISOR: exec_cmd: nio create_udp udp-64d157a2-923f-4ce8-bd6f-00b36e01cc63 10017 127.0.0.1 10016 
+Jan 09 23:08:13.914 HYPERVISOR: exec_cmd: vm slot_add_nio_binding VTPServer2 1 3 udp-64d157a2-923f-4ce8-bd6f-00b36e01cc63 
+Jan 09 23:08:13.923 HYPERVISOR: exec_cmd: vm get_status VTPServer2 
+Jan 09 23:08:35.541 HYPERVISOR: exec_cmd: vm set_ghost_status VTPServer2 2 
+Jan 09 23:08:35.547 HYPERVISOR: exec_cmd: vm set_ghost_file VTPServer2 c3640-ik9o3s-mz124-13.image-256.ghost 
+Jan 09 23:08:35.554 HYPERVISOR: exec_cmd: vm get_status VTPServer2 
+Jan 09 23:08:35.625 HYPERVISOR: exec_cmd: vm start VTPServer2 
+Jan 09 23:17:56.194 HYPERVISOR: exec_cmd: vm get_status VTPServer2 
+Jan 09 23:17:56.224 HYPERVISOR: exec_cmd: vm stop VTPServer2 
+Jan 09 23:17:56.491 VM: VM VTPServer2 shutdown.
+Jan 09 23:17:56.497 HYPERVISOR: exec_cmd: vm extract_config VTPServer2 
+Jan 09 23:26:12.390 HYPERVISOR: exec_cmd: vm get_status VTPServer2 
+Jan 09 23:26:12.496 HYPERVISOR: exec_cmd: vm set_idle_pc VTPServer2 0x605d2390 
+Jan 09 23:40:45.771 HYPERVISOR: exec_cmd: vm get_status VTPServer2 
+Jan 09 23:40:45.811 HYPERVISOR: exec_cmd: vm set_idle_pc VTPServer2 0x60672c68 
+Jan 10 00:00:29.692 HYPERVISOR: exec_cmd: vm get_status VTPServer2 
+Jan 10 00:00:29.749 HYPERVISOR: exec_cmd: vm start VTPServer2 
+Jan 10 00:03:11.393 HYPERVISOR: exec_cmd: vm get_status VTPServer2 
+Jan 10 00:03:11.414 HYPERVISOR: exec_cmd: vm stop VTPServer2 
+Jan 10 00:03:11.629 VM: VM VTPServer2 shutdown.
+Jan 10 00:03:11.644 HYPERVISOR: exec_cmd: vm extract_config VTPServer2 
+Jan 10 00:24:08.495 HYPERVISOR: exec_cmd: vm get_status VTPServer2 
+Jan 10 00:24:08.532 HYPERVISOR: exec_cmd: vm set_idle_pc VTPServer2 0x605d2390 
+Jan 10 00:32:11.636 HYPERVISOR: exec_cmd: vm get_status VTPServer2 
+Jan 10 00:32:11.683 HYPERVISOR: exec_cmd: vm start VTPServer2 
+Jan 10 00:41:11.623 HYPERVISOR: exec_cmd: vm get_status VTPServer2 
+Jan 10 00:41:11.645 HYPERVISOR: exec_cmd: vm stop VTPServer2 
+Jan 10 00:41:11.973 VM: VM VTPServer2 shutdown.
+Jan 10 00:41:11.978 HYPERVISOR: exec_cmd: vm extract_config VTPServer2 
+Jan 10 00:41:30.811 HYPERVISOR: exec_cmd: vm extract_config VTPServer2 
+Jan 10 00:41:35.277 HYPERVISOR: exec_cmd: vm get_status VTPServer2 
+Jan 10 00:41:35.342 HYPERVISOR: exec_cmd: vm start VTPServer2 
+Jan 10 00:42:01.180 HYPERVISOR: exec_cmd: vm get_status VTPServer2 
+Jan 10 00:42:01.216 HYPERVISOR: exec_cmd: vm set_idle_pc_online VTPServer2 0 0x60a80004 
+Jan 10 00:43:44.634 HYPERVISOR: exec_cmd: vm get_status VTPServer2 
+Jan 10 00:43:44.653 HYPERVISOR: exec_cmd: vm stop VTPServer2 
+Jan 10 00:43:44.988 VM: VM VTPServer2 shutdown.
+Jan 10 00:43:44.992 HYPERVISOR: exec_cmd: vm extract_config VTPServer2 
+Jan 10 00:46:27.797 HYPERVISOR: exec_cmd: vm get_status VTPServer2 
+Jan 10 00:46:27.804 HYPERVISOR: exec_cmd: vm start VTPServer2 
+Jan 10 00:48:24.989 HYPERVISOR: exec_cmd: vm get_status VTPServer2 
+Jan 10 00:48:25.005 HYPERVISOR: exec_cmd: vm stop VTPServer2 
+Jan 10 00:48:25.255 VM: VM VTPServer2 shutdown.
+Jan 10 00:48:25.259 HYPERVISOR: exec_cmd: vm extract_config VTPServer2 
+Jan 10 00:57:58.071 HYPERVISOR: exec_cmd: vm extract_config VTPServer2 
+Jan 10 00:58:00.824 HYPERVISOR: exec_cmd: vm get_status VTPServer2 
+Jan 10 00:58:00.892 HYPERVISOR: exec_cmd: vm extract_config VTPServer2 
+Jan 10 00:58:00.989 HYPERVISOR: exec_cmd: vm delete VTPServer2 
+Jan 10 00:58:00.989 VM: VM VTPServer2 destroyed.
+Jan 10 00:58:01.510 HYPERVISOR: exec_cmd: hypervisor stop 
+Jan 10 00:58:01.998 HYPERVISOR: Stopped.
+Jan 10 00:58:01.998 GENERAL: reset done.

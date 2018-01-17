@@ -1,0 +1,39 @@
+Jan 17 23:24:14.115 HYPERVISOR: Release 0.2.14-x86/Windows (tag 2014092320)
+Jan 17 23:24:14.115 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 16378.
+Jan 17 23:24:14.387 HYPERVISOR: exec_cmd: hypervisor version 
+Jan 17 23:24:14.467 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\Edonis Karaçica\Desktop\Tema e Diplomes\Rrjeta\Aeroporti i Prishtines\project-files\dynamips 
+Jan 17 23:24:14.467 GENERAL: working_dir=C:\Users\Edonis Karaçica\Desktop\Tema e Diplomes\Rrjeta\Aeroporti i Prishtines\project-files\dynamips
+Jan 17 23:24:14.520 HYPERVISOR: exec_cmd: vm create VTPClient4 13 c3600 
+Jan 17 23:24:14.522 VM: VM VTPClient4 created.
+Jan 17 23:24:14.547 HYPERVISOR: exec_cmd: vm set_con_tcp_port VTPClient4 5012 
+Jan 17 23:24:14.572 HYPERVISOR: exec_cmd: c3600 get_mac_addr VTPClient4 
+Jan 17 23:24:14.596 HYPERVISOR: exec_cmd: vm set_ios VTPClient4 C:/Users/Edonis Karaçica/GNS3/images/IOS/c3640-ik9o3s-mz124-13.image 
+Jan 17 23:24:14.617 HYPERVISOR: exec_cmd: vm get_status VTPClient4 
+Jan 17 23:24:14.639 HYPERVISOR: exec_cmd: vm slot_add_binding VTPClient4 2 0 NM-1E 
+Jan 17 23:24:14.666 HYPERVISOR: exec_cmd: vm get_status VTPClient4 
+Jan 17 23:24:14.694 HYPERVISOR: exec_cmd: vm slot_add_binding VTPClient4 0 0 NM-1FE-TX 
+Jan 17 23:24:14.720 HYPERVISOR: exec_cmd: vm get_status VTPClient4 
+Jan 17 23:24:14.744 HYPERVISOR: exec_cmd: vm set_idle_pc VTPClient4 0x60672c68 
+Jan 17 23:24:14.771 HYPERVISOR: exec_cmd: vm set_disk0 VTPClient4 1 
+Jan 17 23:24:14.796 HYPERVISOR: exec_cmd: vm set_ram VTPClient4 256 
+Jan 17 23:24:14.826 HYPERVISOR: exec_cmd: vm set_exec_area VTPClient4 64 
+Jan 17 23:24:14.850 HYPERVISOR: exec_cmd: vm get_status VTPClient4 
+Jan 17 23:24:14.877 HYPERVISOR: exec_cmd: vm slot_add_binding VTPClient4 1 0 NM-16ESW 
+Jan 17 23:24:14.912 HYPERVISOR: exec_cmd: c3600 set_mac_addr VTPClient4 cc0d.2d64.0000 
+Jan 17 23:24:14.960 HYPERVISOR: exec_cmd: vm set_nvram VTPClient4 256 
+Jan 17 23:24:14.990 HYPERVISOR: exec_cmd: vm set_config VTPClient4 configs/i13_startup-config.cfg 
+Jan 17 23:24:17.555 HYPERVISOR: exec_cmd: nio create_udp udp-f001cdd3-0eb6-4267-89e7-777d275869c0 10012 127.0.0.1 10013 
+Jan 17 23:24:17.574 HYPERVISOR: exec_cmd: vm slot_add_nio_binding VTPClient4 1 3 udp-f001cdd3-0eb6-4267-89e7-777d275869c0 
+Jan 17 23:24:17.593 HYPERVISOR: exec_cmd: vm get_status VTPClient4 
+Jan 17 23:24:17.661 HYPERVISOR: exec_cmd: nio create_udp udp-1ed1da02-94d1-4822-9725-0149eec8c913 10014 127.0.0.1 10015 
+Jan 17 23:24:17.703 HYPERVISOR: exec_cmd: vm slot_add_nio_binding VTPClient4 1 4 udp-1ed1da02-94d1-4822-9725-0149eec8c913 
+Jan 17 23:24:17.727 HYPERVISOR: exec_cmd: vm get_status VTPClient4 
+Jan 17 23:24:17.770 HYPERVISOR: exec_cmd: nio create_udp udp-a22d56a5-ae2b-401f-a7ee-a851a94f1f0b 10017 127.0.0.1 10016 
+Jan 17 23:24:17.803 HYPERVISOR: exec_cmd: vm slot_add_nio_binding VTPClient4 1 13 udp-a22d56a5-ae2b-401f-a7ee-a851a94f1f0b 
+Jan 17 23:24:17.831 HYPERVISOR: exec_cmd: vm get_status VTPClient4 
+Jan 17 23:29:30.665 HYPERVISOR: exec_cmd: nio create_gen_eth generic_ethernet-f9f7a8b6-24b9-4796-9367-a76fd18394e8 \Device\NPF_{9D88D442-13A2-426F-8758-D683E33C5916} 
+Jan 17 23:29:30.731 HYPERVISOR: exec_cmd: vm slot_add_nio_binding VTPClient4 1 5 generic_ethernet-f9f7a8b6-24b9-4796-9367-a76fd18394e8 
+Jan 17 23:29:30.735 HYPERVISOR: exec_cmd: vm get_status VTPClient4 
+Jan 17 23:30:50.429 HYPERVISOR: exec_cmd: vm get_status VTPClient4 
+Jan 17 23:30:50.434 HYPERVISOR: exec_cmd: vm slot_remove_nio_binding VTPClient4 1 5 
+Jan 17 23:30:50.451 HYPERVISOR: exec_cmd: nio delete generic_ethernet-f9f7a8b6-24b9-4796-9367-a76fd18394e8 

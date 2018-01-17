@@ -1,0 +1,20 @@
+Jan 10 14:46:45.975 HYPERVISOR: Release 0.2.14-x86/Windows (tag 2014092320)
+Jan 10 14:46:45.975 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 8297.
+Jan 10 14:46:46.459 HYPERVISOR: exec_cmd: hypervisor version 
+Jan 10 14:46:46.475 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\Edonis Karaçica\Desktop\Tema e Diplomes\Rrjeta\Aeroporti i Prishtines\project-files\dynamips 
+Jan 10 14:46:46.475 GENERAL: working_dir=C:\Users\Edonis Karaçica\Desktop\Tema e Diplomes\Rrjeta\Aeroporti i Prishtines\project-files\dynamips
+Jan 10 14:46:46.490 HYPERVISOR: exec_cmd: ethsw create SW3 
+Jan 10 14:47:11.964 HYPERVISOR: exec_cmd: nio create_udp udp-d6e7d5c7-4905-49a9-9b6e-b4910774ff97 10035 127.0.0.1 10034 
+Jan 10 14:47:11.964 HYPERVISOR: exec_cmd: ethsw add_nio SW3 udp-d6e7d5c7-4905-49a9-9b6e-b4910774ff97 
+Jan 10 14:47:11.980 HYPERVISOR: exec_cmd: ethsw set_access_port SW3 udp-d6e7d5c7-4905-49a9-9b6e-b4910774ff97 1 
+Jan 10 14:47:15.260 HYPERVISOR: exec_cmd: nio create_udp udp-af4629ff-4acc-4c19-85a3-897b12cfc39d 10036 127.0.0.1 10037 
+Jan 10 14:47:15.291 HYPERVISOR: exec_cmd: ethsw add_nio SW3 udp-af4629ff-4acc-4c19-85a3-897b12cfc39d 
+Jan 10 14:47:15.307 HYPERVISOR: exec_cmd: ethsw set_access_port SW3 udp-af4629ff-4acc-4c19-85a3-897b12cfc39d 1 
+Jan 10 14:51:03.651 HYPERVISOR: exec_cmd: ethsw set_dot1q_port SW3 udp-d6e7d5c7-4905-49a9-9b6e-b4910774ff97 1 
+Jan 10 14:51:21.286 HYPERVISOR: exec_cmd: ethsw set_access_port SW3 udp-af4629ff-4acc-4c19-85a3-897b12cfc39d 200 
+Jan 10 15:05:46.673 HYPERVISOR: exec_cmd: ethsw set_access_port SW3 udp-af4629ff-4acc-4c19-85a3-897b12cfc39d 1 
+Jan 10 15:20:47.382 HYPERVISOR: exec_cmd: ethsw set_access_port SW3 udp-af4629ff-4acc-4c19-85a3-897b12cfc39d 200 
+Jan 10 15:40:29.894 HYPERVISOR: exec_cmd: ethsw delete SW3 
+Jan 10 15:40:29.931 HYPERVISOR: exec_cmd: hypervisor stop 
+Jan 10 15:40:29.998 HYPERVISOR: Stopped.
+Jan 10 15:40:30.009 GENERAL: reset done.

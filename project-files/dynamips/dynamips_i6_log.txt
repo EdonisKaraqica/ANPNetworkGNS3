@@ -1,0 +1,33 @@
+Jan 17 23:24:14.084 HYPERVISOR: Release 0.2.14-x86/Windows (tag 2014092320)
+Jan 17 23:24:14.085 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 16376.
+Jan 17 23:24:14.337 HYPERVISOR: exec_cmd: hypervisor version 
+Jan 17 23:24:14.392 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\Edonis Karaçica\Desktop\Tema e Diplomes\Rrjeta\Aeroporti i Prishtines\project-files\dynamips 
+Jan 17 23:24:14.392 GENERAL: working_dir=C:\Users\Edonis Karaçica\Desktop\Tema e Diplomes\Rrjeta\Aeroporti i Prishtines\project-files\dynamips
+Jan 17 23:24:14.471 HYPERVISOR: exec_cmd: vm create VTPServer2 8 c3600 
+Jan 17 23:24:14.479 VM: VM VTPServer2 created.
+Jan 17 23:24:14.524 HYPERVISOR: exec_cmd: vm set_con_tcp_port VTPServer2 5007 
+Jan 17 23:24:14.550 HYPERVISOR: exec_cmd: c3600 get_mac_addr VTPServer2 
+Jan 17 23:24:14.575 HYPERVISOR: exec_cmd: vm set_ios VTPServer2 C:/Users/Edonis Karaçica/GNS3/images/IOS/c3640-ik9o3s-mz124-13.image 
+Jan 17 23:24:14.600 HYPERVISOR: exec_cmd: vm get_status VTPServer2 
+Jan 17 23:24:14.621 HYPERVISOR: exec_cmd: vm slot_add_binding VTPServer2 2 0 NM-1E 
+Jan 17 23:24:14.642 HYPERVISOR: exec_cmd: vm get_status VTPServer2 
+Jan 17 23:24:14.669 HYPERVISOR: exec_cmd: vm slot_add_binding VTPServer2 0 0 NM-1FE-TX 
+Jan 17 23:24:14.697 HYPERVISOR: exec_cmd: vm get_status VTPServer2 
+Jan 17 23:24:14.723 HYPERVISOR: exec_cmd: vm set_idle_pc VTPServer2 0x60672c68 
+Jan 17 23:24:14.748 HYPERVISOR: exec_cmd: vm set_disk0 VTPServer2 1 
+Jan 17 23:24:14.774 HYPERVISOR: exec_cmd: vm set_ram VTPServer2 256 
+Jan 17 23:24:14.801 HYPERVISOR: exec_cmd: vm set_exec_area VTPServer2 64 
+Jan 17 23:24:14.829 HYPERVISOR: exec_cmd: vm get_status VTPServer2 
+Jan 17 23:24:14.853 HYPERVISOR: exec_cmd: vm slot_add_binding VTPServer2 1 0 NM-16ESW 
+Jan 17 23:24:14.880 HYPERVISOR: exec_cmd: c3600 set_mac_addr VTPServer2 cc08.2ebc.0000 
+Jan 17 23:24:14.918 HYPERVISOR: exec_cmd: vm set_nvram VTPServer2 256 
+Jan 17 23:24:14.964 HYPERVISOR: exec_cmd: vm set_config VTPServer2 configs/i8_startup-config.cfg 
+Jan 17 23:24:17.540 HYPERVISOR: exec_cmd: nio create_udp udp-5b7969bc-f5b6-4942-9bad-6c1b91c2e02a 10010 127.0.0.1 10011 
+Jan 17 23:24:17.567 HYPERVISOR: exec_cmd: vm slot_add_nio_binding VTPServer2 1 1 udp-5b7969bc-f5b6-4942-9bad-6c1b91c2e02a 
+Jan 17 23:24:17.585 HYPERVISOR: exec_cmd: vm get_status VTPServer2 
+Jan 17 23:24:17.651 HYPERVISOR: exec_cmd: nio create_udp udp-ce40786e-669c-4f33-9d17-a2978af99259 10013 127.0.0.1 10012 
+Jan 17 23:24:17.697 HYPERVISOR: exec_cmd: vm slot_add_nio_binding VTPServer2 1 3 udp-ce40786e-669c-4f33-9d17-a2978af99259 
+Jan 17 23:24:17.717 HYPERVISOR: exec_cmd: vm get_status VTPServer2 
+Jan 17 23:24:17.762 HYPERVISOR: exec_cmd: nio create_udp udp-e86e932e-4c8c-486d-b308-a20a0855d5fc 10018 127.0.0.1 10019 
+Jan 17 23:24:17.796 HYPERVISOR: exec_cmd: vm slot_add_nio_binding VTPServer2 1 2 udp-e86e932e-4c8c-486d-b308-a20a0855d5fc 
+Jan 17 23:24:17.828 HYPERVISOR: exec_cmd: vm get_status VTPServer2 

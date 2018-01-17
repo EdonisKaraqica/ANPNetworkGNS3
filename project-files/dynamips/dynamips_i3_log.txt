@@ -1,0 +1,37 @@
+Jan 17 23:24:12.796 HYPERVISOR: Release 0.2.14-x86/Windows (tag 2014092320)
+Jan 17 23:24:12.797 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 16358.
+Jan 17 23:24:13.278 HYPERVISOR: exec_cmd: hypervisor version 
+Jan 17 23:24:13.301 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\Edonis Karaçica\Desktop\Tema e Diplomes\Rrjeta\Aeroporti i Prishtines\project-files\dynamips 
+Jan 17 23:24:13.555 GENERAL: working_dir=C:\Users\Edonis Karaçica\Desktop\Tema e Diplomes\Rrjeta\Aeroporti i Prishtines\project-files\dynamips
+Jan 17 23:24:13.580 HYPERVISOR: exec_cmd: vm create R3 3 c3600 
+Jan 17 23:24:13.582 VM: VM R3 created.
+Jan 17 23:24:13.600 HYPERVISOR: exec_cmd: vm set_con_tcp_port R3 5002 
+Jan 17 23:24:13.618 HYPERVISOR: exec_cmd: c3600 get_mac_addr R3 
+Jan 17 23:24:13.637 HYPERVISOR: exec_cmd: vm set_ios R3 C:/Users/Edonis Karaçica/GNS3/images/IOS/c3640-ik9o3s-mz124-13.image 
+Jan 17 23:24:13.660 HYPERVISOR: exec_cmd: vm get_status R3 
+Jan 17 23:24:13.682 HYPERVISOR: exec_cmd: vm slot_add_binding R3 2 0 NM-1FE-TX 
+Jan 17 23:24:13.704 HYPERVISOR: exec_cmd: vm get_status R3 
+Jan 17 23:24:13.726 HYPERVISOR: exec_cmd: vm slot_add_binding R3 0 0 NM-1FE-TX 
+Jan 17 23:24:13.748 HYPERVISOR: exec_cmd: vm get_status R3 
+Jan 17 23:24:13.772 HYPERVISOR: exec_cmd: vm set_idle_pc R3 0x60672c68 
+Jan 17 23:24:13.794 HYPERVISOR: exec_cmd: vm set_ram R3 256 
+Jan 17 23:24:13.817 HYPERVISOR: exec_cmd: vm set_exec_area R3 64 
+Jan 17 23:24:13.840 HYPERVISOR: exec_cmd: vm get_status R3 
+Jan 17 23:24:13.862 HYPERVISOR: exec_cmd: vm slot_add_binding R3 3 0 NM-1FE-TX 
+Jan 17 23:24:13.884 HYPERVISOR: exec_cmd: vm get_status R3 
+Jan 17 23:24:13.906 HYPERVISOR: exec_cmd: vm slot_add_binding R3 1 0 NM-1FE-TX 
+Jan 17 23:24:13.928 HYPERVISOR: exec_cmd: c3600 set_mac_addr R3 cc03.2218.0000 
+Jan 17 23:24:13.951 HYPERVISOR: exec_cmd: vm set_nvram R3 256 
+Jan 17 23:24:13.986 HYPERVISOR: exec_cmd: vm set_config R3 configs/i3_startup-config.cfg 
+Jan 17 23:24:16.336 HYPERVISOR: exec_cmd: nio create_gen_eth generic_ethernet-93a052ef-3f5b-4d79-a1d0-13bfb031be5c \Device\NPF_{9EF97018-B043-4CF3-A16A-0DF6E53C6DA0} 
+Jan 17 23:24:16.439 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R3 2 0 generic_ethernet-93a052ef-3f5b-4d79-a1d0-13bfb031be5c 
+Jan 17 23:24:16.467 HYPERVISOR: exec_cmd: vm get_status R3 
+Jan 17 23:24:17.201 HYPERVISOR: exec_cmd: nio create_udp udp-845660f1-fcec-4938-8202-0307dbb95f87 10001 127.0.0.1 10000 
+Jan 17 23:24:17.226 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R3 1 0 udp-845660f1-fcec-4938-8202-0307dbb95f87 
+Jan 17 23:24:17.245 HYPERVISOR: exec_cmd: vm get_status R3 
+Jan 17 23:24:17.277 HYPERVISOR: exec_cmd: nio create_udp udp-2e485e57-0822-4799-ab95-3d4ceff310a8 10003 127.0.0.1 10002 
+Jan 17 23:24:17.312 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R3 3 0 udp-2e485e57-0822-4799-ab95-3d4ceff310a8 
+Jan 17 23:24:17.338 HYPERVISOR: exec_cmd: vm get_status R3 
+Jan 17 23:24:17.371 HYPERVISOR: exec_cmd: nio create_udp udp-03734168-3439-4990-9ee5-1c4e541d9a5d 10005 127.0.0.1 10004 
+Jan 17 23:24:17.408 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R3 0 0 udp-03734168-3439-4990-9ee5-1c4e541d9a5d 
+Jan 17 23:24:17.442 HYPERVISOR: exec_cmd: vm get_status R3 

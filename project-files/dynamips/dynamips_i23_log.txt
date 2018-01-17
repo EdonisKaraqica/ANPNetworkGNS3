@@ -1,0 +1,59 @@
+Jan 09 21:46:26.954 HYPERVISOR: Release 0.2.14-x86/Windows (tag 2014092320)
+Jan 09 21:46:26.955 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 6010.
+Jan 09 21:46:27.475 HYPERVISOR: exec_cmd: hypervisor version 
+Jan 09 21:46:27.487 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\Edonis Karaçica\Desktop\Tema e Diplomes\Rrjeta\Aeroporti i Prishtines\project-files\dynamips 
+Jan 09 21:46:27.487 GENERAL: working_dir=C:\Users\Edonis Karaçica\Desktop\Tema e Diplomes\Rrjeta\Aeroporti i Prishtines\project-files\dynamips
+Jan 09 21:46:27.499 HYPERVISOR: exec_cmd: vm create ESW4 11 c3600 
+Jan 09 21:46:27.521 VM: VM ESW4 created.
+Jan 09 21:46:27.523 HYPERVISOR: exec_cmd: vm set_con_tcp_port ESW4 5010 
+Jan 09 21:46:27.528 HYPERVISOR: exec_cmd: c3600 get_mac_addr ESW4 
+Jan 09 21:46:27.533 HYPERVISOR: exec_cmd: vm get_status ESW4 
+Jan 09 21:46:27.537 HYPERVISOR: exec_cmd: vm slot_add_binding ESW4 0 0 NM-1FE-TX 
+Jan 09 21:46:27.542 HYPERVISOR: exec_cmd: vm set_ios ESW4 C:/Users/Edonis Karaçica/GNS3/images/IOS/c3640-ik9o3s-mz124-13.image 
+Jan 09 21:46:27.547 HYPERVISOR: exec_cmd: vm get_status ESW4 
+Jan 09 21:46:27.553 HYPERVISOR: exec_cmd: vm slot_add_binding ESW4 1 0 NM-16ESW 
+Jan 09 21:46:27.558 HYPERVISOR: exec_cmd: vm get_status ESW4 
+Jan 09 21:46:27.564 HYPERVISOR: exec_cmd: vm slot_add_binding ESW4 2 0 NM-1E 
+Jan 09 21:46:27.568 HYPERVISOR: exec_cmd: vm set_disk0 ESW4 1 
+Jan 09 21:46:27.574 HYPERVISOR: exec_cmd: vm set_exec_area ESW4 64 
+Jan 09 21:46:27.579 HYPERVISOR: exec_cmd: vm set_ram ESW4 256 
+Jan 09 21:46:27.584 HYPERVISOR: exec_cmd: vm get_status ESW4 
+Jan 09 21:46:27.589 HYPERVISOR: exec_cmd: vm set_idle_pc ESW4 0x60672c68 
+Jan 09 21:46:27.593 HYPERVISOR: exec_cmd: vm set_nvram ESW4 256 
+Jan 09 21:46:27.604 HYPERVISOR: exec_cmd: vm set_config ESW4 configs/i11_startup-config.cfg 
+Jan 09 21:59:01.508 HYPERVISOR: exec_cmd: vm rename ESW4 VTPClient2 
+Jan 09 22:11:55.191 HYPERVISOR: exec_cmd: nio create_udp udp-1d4b4b93-3110-4c16-8cb2-1380fc249265 10013 127.0.0.1 10012 
+Jan 09 22:11:55.201 HYPERVISOR: exec_cmd: vm slot_add_nio_binding VTPClient2 0 0 udp-1d4b4b93-3110-4c16-8cb2-1380fc249265 
+Jan 09 22:11:55.211 HYPERVISOR: exec_cmd: vm get_status VTPClient2 
+Jan 09 22:12:36.871 HYPERVISOR: exec_cmd: nio create_udp udp-1bc6d558-818b-4320-8ea2-711d702901f0 10022 127.0.0.1 10023 
+Jan 09 22:12:36.892 HYPERVISOR: exec_cmd: vm slot_add_nio_binding VTPClient2 1 0 udp-1bc6d558-818b-4320-8ea2-711d702901f0 
+Jan 09 22:12:36.900 HYPERVISOR: exec_cmd: vm get_status VTPClient2 
+Jan 09 22:32:18.327 HYPERVISOR: exec_cmd: vm set_ghost_status VTPClient2 2 
+Jan 09 22:32:18.334 HYPERVISOR: exec_cmd: vm set_ghost_file VTPClient2 c3640-ik9o3s-mz124-13.image-256.ghost 
+Jan 09 22:32:18.341 HYPERVISOR: exec_cmd: vm get_status VTPClient2 
+Jan 09 22:32:18.347 HYPERVISOR: exec_cmd: vm start VTPClient2 
+Jan 09 22:32:58.884 HYPERVISOR: exec_cmd: vm get_status VTPClient2 
+Jan 09 22:32:58.897 HYPERVISOR: exec_cmd: vm slot_disable_nio VTPClient2 0 0 
+Jan 09 22:32:58.908 HYPERVISOR: exec_cmd: vm slot_remove_nio_binding VTPClient2 0 0 
+Jan 09 22:32:58.922 HYPERVISOR: exec_cmd: nio delete udp-1d4b4b93-3110-4c16-8cb2-1380fc249265 
+Jan 09 22:33:09.648 HYPERVISOR: exec_cmd: nio create_udp udp-f19edb5e-6760-4efb-9984-a85f94fbf6a0 10012 127.0.0.1 10013 
+Jan 09 22:33:09.663 HYPERVISOR: exec_cmd: vm slot_add_nio_binding VTPClient2 1 3 udp-f19edb5e-6760-4efb-9984-a85f94fbf6a0 
+Jan 09 22:33:09.671 HYPERVISOR: exec_cmd: vm get_status VTPClient2 
+Jan 09 22:33:09.682 HYPERVISOR: exec_cmd: vm slot_enable_nio VTPClient2 1 3 
+Jan 09 22:35:43.602 HYPERVISOR: exec_cmd: vm get_status VTPClient2 
+Jan 09 22:35:43.628 HYPERVISOR: exec_cmd: vm slot_disable_nio VTPClient2 1 3 
+Jan 09 22:35:43.651 HYPERVISOR: exec_cmd: vm slot_remove_nio_binding VTPClient2 1 3 
+Jan 09 22:35:43.676 HYPERVISOR: exec_cmd: nio delete udp-f19edb5e-6760-4efb-9984-a85f94fbf6a0 
+Jan 09 22:35:43.747 HYPERVISOR: exec_cmd: vm get_status VTPClient2 
+Jan 09 22:35:43.785 HYPERVISOR: exec_cmd: vm slot_disable_nio VTPClient2 1 0 
+Jan 09 22:35:43.801 HYPERVISOR: exec_cmd: vm slot_remove_nio_binding VTPClient2 1 0 
+Jan 09 22:35:43.810 HYPERVISOR: exec_cmd: nio delete udp-1bc6d558-818b-4320-8ea2-711d702901f0 
+Jan 09 22:35:43.829 HYPERVISOR: exec_cmd: vm get_status VTPClient2 
+Jan 09 22:35:43.844 HYPERVISOR: exec_cmd: vm stop VTPClient2 
+Jan 09 22:35:44.025 VM: VM VTPClient2 shutdown.
+Jan 09 22:35:44.031 HYPERVISOR: exec_cmd: vm extract_config VTPClient2 
+Jan 09 22:35:44.367 HYPERVISOR: exec_cmd: vm delete VTPClient2 
+Jan 09 22:35:44.367 VM: VM VTPClient2 destroyed.
+Jan 09 22:35:44.990 HYPERVISOR: exec_cmd: hypervisor stop 
+Jan 09 22:35:45.115 HYPERVISOR: Stopped.
+Jan 09 22:35:45.162 GENERAL: reset done.

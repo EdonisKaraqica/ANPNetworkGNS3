@@ -1,0 +1,17 @@
+Jan 11 21:09:50.080 HYPERVISOR: Release 0.2.14-x86/Windows (tag 2014092320)
+Jan 11 21:09:50.081 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 13662.
+Jan 11 21:09:50.572 HYPERVISOR: exec_cmd: hypervisor version 
+Jan 11 21:09:50.577 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\Edonis Karaçica\Desktop\Tema e Diplomes\Rrjeta\Aeroporti i Prishtines\project-files\dynamips 
+Jan 11 21:09:50.577 GENERAL: working_dir=C:\Users\Edonis Karaçica\Desktop\Tema e Diplomes\Rrjeta\Aeroporti i Prishtines\project-files\dynamips
+Jan 11 21:09:50.582 HYPERVISOR: exec_cmd: ethsw create SW4 
+Jan 11 21:09:57.427 HYPERVISOR: exec_cmd: nio create_udp udp-2b4ae292-b35b-47fa-b220-a6af79665b1e 10023 127.0.0.1 10022 
+Jan 11 21:09:57.440 HYPERVISOR: exec_cmd: ethsw add_nio SW4 udp-2b4ae292-b35b-47fa-b220-a6af79665b1e 
+Jan 11 21:09:57.453 HYPERVISOR: exec_cmd: ethsw set_access_port SW4 udp-2b4ae292-b35b-47fa-b220-a6af79665b1e 1 
+Jan 11 21:10:03.178 HYPERVISOR: exec_cmd: nio create_gen_eth generic_ethernet-8a77d537-89e4-44e4-805f-a1c26803c627 \Device\NPF_{5308ECCD-8D7B-4DBE-8825-C3754EA17DB6} 
+Jan 11 21:10:03.238 HYPERVISOR: exec_cmd: ethsw add_nio SW4 generic_ethernet-8a77d537-89e4-44e4-805f-a1c26803c627 
+Jan 11 21:10:03.248 HYPERVISOR: exec_cmd: ethsw set_access_port SW4 generic_ethernet-8a77d537-89e4-44e4-805f-a1c26803c627 1 
+Jan 11 21:10:19.460 HYPERVISOR: exec_cmd: ethsw set_dot1q_port SW4 udp-2b4ae292-b35b-47fa-b220-a6af79665b1e 1 
+Jan 11 23:02:31.579 HYPERVISOR: exec_cmd: ethsw delete SW4 
+Jan 11 23:02:31.861 HYPERVISOR: exec_cmd: hypervisor stop 
+Jan 11 23:02:31.951 HYPERVISOR: Stopped.
+Jan 11 23:02:31.951 GENERAL: reset done.

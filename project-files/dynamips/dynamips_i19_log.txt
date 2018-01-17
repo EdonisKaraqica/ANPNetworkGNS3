@@ -1,0 +1,10 @@
+Jan 09 21:45:43.199 HYPERVISOR: Release 0.2.14-x86/Windows (tag 2014092320)
+Jan 09 21:45:43.200 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 6001.
+Jan 09 21:45:43.265 HYPERVISOR: exec_cmd: hypervisor version 
+Jan 09 21:45:43.282 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\Edonis Karaçica\Desktop\Tema e Diplomes\Rrjeta\Aeroporti i Prishtines\project-files\dynamips 
+Jan 09 21:45:43.282 GENERAL: working_dir=C:\Users\Edonis Karaçica\Desktop\Tema e Diplomes\Rrjeta\Aeroporti i Prishtines\project-files\dynamips
+Jan 09 21:45:43.290 HYPERVISOR: exec_cmd: ethsw create SW8 
+Jan 09 21:45:50.290 HYPERVISOR: exec_cmd: ethsw delete SW8 
+Jan 09 21:45:50.296 HYPERVISOR: exec_cmd: hypervisor stop 
+Jan 09 21:45:50.754 HYPERVISOR: Stopped.
+Jan 09 21:45:50.754 GENERAL: reset done.

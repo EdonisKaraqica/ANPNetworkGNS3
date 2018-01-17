@@ -1,0 +1,40 @@
+Jan 09 21:52:27.909 HYPERVISOR: Release 0.2.14-x86/Windows (tag 2014092320)
+Jan 09 21:52:27.910 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 6084.
+Jan 09 21:52:28.191 HYPERVISOR: exec_cmd: hypervisor version 
+Jan 09 21:52:28.199 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\Edonis Karaçica\Desktop\Tema e Diplomes\Rrjeta\Aeroporti i Prishtines\project-files\dynamips 
+Jan 09 21:52:28.200 GENERAL: working_dir=C:\Users\Edonis Karaçica\Desktop\Tema e Diplomes\Rrjeta\Aeroporti i Prishtines\project-files\dynamips
+Jan 09 21:52:28.209 HYPERVISOR: exec_cmd: vm create ESW7 14 c3600 
+Jan 09 21:52:28.227 VM: VM ESW7 created.
+Jan 09 21:52:28.230 HYPERVISOR: exec_cmd: vm set_con_tcp_port ESW7 5013 
+Jan 09 21:52:28.235 HYPERVISOR: exec_cmd: c3600 get_mac_addr ESW7 
+Jan 09 21:52:28.240 HYPERVISOR: exec_cmd: vm get_status ESW7 
+Jan 09 21:52:28.245 HYPERVISOR: exec_cmd: vm slot_add_binding ESW7 0 0 NM-1FE-TX 
+Jan 09 21:52:28.250 HYPERVISOR: exec_cmd: vm set_ios ESW7 C:/Users/Edonis Karaçica/GNS3/images/IOS/c3640-ik9o3s-mz124-13.image 
+Jan 09 21:52:28.254 HYPERVISOR: exec_cmd: vm get_status ESW7 
+Jan 09 21:52:28.259 HYPERVISOR: exec_cmd: vm slot_add_binding ESW7 1 0 NM-16ESW 
+Jan 09 21:52:28.264 HYPERVISOR: exec_cmd: vm get_status ESW7 
+Jan 09 21:52:28.269 HYPERVISOR: exec_cmd: vm slot_add_binding ESW7 2 0 NM-1E 
+Jan 09 21:52:28.274 HYPERVISOR: exec_cmd: vm set_disk0 ESW7 1 
+Jan 09 21:52:28.279 HYPERVISOR: exec_cmd: vm set_exec_area ESW7 64 
+Jan 09 21:52:28.283 HYPERVISOR: exec_cmd: vm set_ram ESW7 256 
+Jan 09 21:52:28.288 HYPERVISOR: exec_cmd: vm get_status ESW7 
+Jan 09 21:52:28.292 HYPERVISOR: exec_cmd: vm set_idle_pc ESW7 0x60672c68 
+Jan 09 21:52:28.297 HYPERVISOR: exec_cmd: vm set_nvram ESW7 256 
+Jan 09 21:52:28.309 HYPERVISOR: exec_cmd: vm set_config ESW7 configs/i14_startup-config.cfg 
+Jan 09 23:26:12.609 HYPERVISOR: exec_cmd: vm get_status ESW7 
+Jan 09 23:26:12.661 HYPERVISOR: exec_cmd: vm set_idle_pc ESW7 0x605d2390 
+Jan 09 23:40:45.889 HYPERVISOR: exec_cmd: vm get_status ESW7 
+Jan 09 23:40:45.937 HYPERVISOR: exec_cmd: vm set_idle_pc ESW7 0x60672c68 
+Jan 10 00:24:08.614 HYPERVISOR: exec_cmd: vm get_status ESW7 
+Jan 10 00:24:08.663 HYPERVISOR: exec_cmd: vm set_idle_pc ESW7 0x605d2390 
+Jan 10 00:41:31.115 HYPERVISOR: exec_cmd: vm extract_config ESW7 
+Jan 10 00:42:01.359 HYPERVISOR: exec_cmd: vm get_status ESW7 
+Jan 10 00:42:01.411 HYPERVISOR: exec_cmd: vm set_idle_pc ESW7 0x60a80004 
+Jan 10 00:57:58.119 HYPERVISOR: exec_cmd: vm extract_config ESW7 
+Jan 10 00:58:00.830 HYPERVISOR: exec_cmd: vm get_status ESW7 
+Jan 10 00:58:00.898 HYPERVISOR: exec_cmd: vm extract_config ESW7 
+Jan 10 00:58:00.998 HYPERVISOR: exec_cmd: vm delete ESW7 
+Jan 10 00:58:01.165 VM: VM ESW7 destroyed.
+Jan 10 00:58:01.183 HYPERVISOR: exec_cmd: hypervisor stop 
+Jan 10 00:58:01.540 HYPERVISOR: Stopped.
+Jan 10 00:58:01.540 GENERAL: reset done.
