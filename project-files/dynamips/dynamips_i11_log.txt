@@ -1,34 +1,35 @@
-Jan 17 23:24:15.161 HYPERVISOR: Release 0.2.14-x86/Windows (tag 2014092320)
-Jan 17 23:24:15.162 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 16386.
-Jan 17 23:24:15.477 HYPERVISOR: exec_cmd: hypervisor version 
-Jan 17 23:24:15.515 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\Edonis Karaçica\Desktop\Tema e Diplomes\Rrjeta\Aeroporti i Prishtines\project-files\dynamips 
-Jan 17 23:24:15.516 GENERAL: working_dir=C:\Users\Edonis Karaçica\Desktop\Tema e Diplomes\Rrjeta\Aeroporti i Prishtines\project-files\dynamips
-Jan 17 23:24:15.555 HYPERVISOR: exec_cmd: vm create VTPClient2 17 c3600 
-Jan 17 23:24:15.557 VM: VM VTPClient2 created.
-Jan 17 23:24:15.590 HYPERVISOR: exec_cmd: vm set_con_tcp_port VTPClient2 5010 
-Jan 17 23:24:15.613 HYPERVISOR: exec_cmd: c3600 get_mac_addr VTPClient2 
-Jan 17 23:24:15.634 HYPERVISOR: exec_cmd: vm set_ios VTPClient2 C:/Users/Edonis Karaçica/GNS3/images/IOS/c3640-ik9o3s-mz124-13.image 
-Jan 17 23:24:15.661 HYPERVISOR: exec_cmd: vm get_status VTPClient2 
-Jan 17 23:24:15.847 HYPERVISOR: exec_cmd: vm slot_add_binding VTPClient2 2 0 NM-1E 
-Jan 17 23:24:15.863 HYPERVISOR: exec_cmd: vm get_status VTPClient2 
-Jan 17 23:24:16.081 HYPERVISOR: exec_cmd: vm slot_add_binding VTPClient2 0 0 NM-1FE-TX 
-Jan 17 23:24:16.104 HYPERVISOR: exec_cmd: vm get_status VTPClient2 
-Jan 17 23:24:16.125 HYPERVISOR: exec_cmd: vm set_idle_pc VTPClient2 0x60672c68 
-Jan 17 23:24:16.340 HYPERVISOR: exec_cmd: vm set_disk0 VTPClient2 1 
-Jan 17 23:24:16.361 HYPERVISOR: exec_cmd: vm set_ram VTPClient2 256 
-Jan 17 23:24:16.389 HYPERVISOR: exec_cmd: vm set_exec_area VTPClient2 64 
-Jan 17 23:24:16.420 HYPERVISOR: exec_cmd: vm get_status VTPClient2 
-Jan 17 23:24:16.443 HYPERVISOR: exec_cmd: vm slot_add_binding VTPClient2 1 0 NM-16ESW 
-Jan 17 23:24:16.470 HYPERVISOR: exec_cmd: c3600 set_mac_addr VTPClient2 cc11.07f4.0000 
-Jan 17 23:24:16.506 HYPERVISOR: exec_cmd: vm set_nvram VTPClient2 256 
-Jan 17 23:24:16.528 HYPERVISOR: exec_cmd: vm set_config VTPClient2 configs/i17_startup-config.cfg 
-Jan 17 23:24:16.587 HYPERVISOR: exec_cmd: vm set_config VTPClient2 configs/i17_startup-config.cfg configs/i17_private-config.cfg 
-Jan 17 23:24:18.432 HYPERVISOR: exec_cmd: nio create_udp udp-94e6673d-d8c5-41db-b716-f07ab1f4cba0 10040 127.0.0.1 10041 
-Jan 17 23:24:18.473 HYPERVISOR: exec_cmd: vm slot_add_nio_binding VTPClient2 1 2 udp-94e6673d-d8c5-41db-b716-f07ab1f4cba0 
-Jan 17 23:24:18.496 HYPERVISOR: exec_cmd: vm get_status VTPClient2 
-Jan 17 23:24:18.536 HYPERVISOR: exec_cmd: nio create_udp udp-25747715-25a0-405e-9694-aa78aed6392b 10043 127.0.0.1 10042 
-Jan 17 23:24:18.566 HYPERVISOR: exec_cmd: vm slot_add_nio_binding VTPClient2 1 3 udp-25747715-25a0-405e-9694-aa78aed6392b 
-Jan 17 23:24:18.589 HYPERVISOR: exec_cmd: vm get_status VTPClient2 
-Jan 17 23:24:18.620 HYPERVISOR: exec_cmd: nio create_udp udp-61dbe4fb-0382-4588-9c64-d0be2128e8b3 10045 127.0.0.1 10044 
-Jan 17 23:24:18.661 HYPERVISOR: exec_cmd: vm slot_add_nio_binding VTPClient2 1 14 udp-61dbe4fb-0382-4588-9c64-d0be2128e8b3 
-Jan 17 23:24:18.689 HYPERVISOR: exec_cmd: vm get_status VTPClient2 
+Jan 18 09:58:55.737 HYPERVISOR: Release 0.2.14-x86/Windows (tag 2014092320)
+Jan 18 09:58:55.737 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 17037.
+Jan 18 09:58:55.924 HYPERVISOR: exec_cmd: hypervisor version 
+Jan 18 09:58:55.971 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\Edonis Karaçica\Desktop\Tema e Diplomes\ANPNetworkGNS3\Aeroporti i Prishtines\project-files\dynamips 
+Jan 18 09:58:55.971 GENERAL: working_dir=C:\Users\Edonis Karaçica\Desktop\Tema e Diplomes\ANPNetworkGNS3\Aeroporti i Prishtines\project-files\dynamips
+Jan 18 09:58:56.002 HYPERVISOR: exec_cmd: vm create VTPClient2 17 c3600 
+Jan 18 09:58:56.002 VM: VM VTPClient2 created.
+Jan 18 09:58:56.033 HYPERVISOR: exec_cmd: vm set_con_tcp_port VTPClient2 5010 
+Jan 18 09:58:56.065 HYPERVISOR: exec_cmd: c3600 get_mac_addr VTPClient2 
+Jan 18 09:58:56.080 HYPERVISOR: exec_cmd: vm set_disk0 VTPClient2 1 
+Jan 18 09:58:56.112 HYPERVISOR: exec_cmd: c3600 set_mac_addr VTPClient2 cc11.07f4.0000 
+Jan 18 09:58:56.471 HYPERVISOR: exec_cmd: vm set_ios VTPClient2 C:/Users/Edonis Karaçica/GNS3/images/IOS/c3640-ik9o3s-mz124-13.image 
+Jan 18 09:58:56.518 HYPERVISOR: exec_cmd: vm set_ram VTPClient2 256 
+Jan 18 09:58:56.565 HYPERVISOR: exec_cmd: vm get_status VTPClient2 
+Jan 18 09:58:56.596 HYPERVISOR: exec_cmd: vm slot_add_binding VTPClient2 2 0 NM-1E 
+Jan 18 09:58:56.643 HYPERVISOR: exec_cmd: vm get_status VTPClient2 
+Jan 18 09:58:56.658 HYPERVISOR: exec_cmd: vm slot_add_binding VTPClient2 1 0 NM-16ESW 
+Jan 18 09:58:56.705 HYPERVISOR: exec_cmd: vm set_nvram VTPClient2 256 
+Jan 18 09:58:56.721 HYPERVISOR: exec_cmd: vm get_status VTPClient2 
+Jan 18 09:58:56.955 HYPERVISOR: exec_cmd: vm slot_add_binding VTPClient2 0 0 NM-1FE-TX 
+Jan 18 09:58:57.018 HYPERVISOR: exec_cmd: vm get_status VTPClient2 
+Jan 18 09:58:57.049 HYPERVISOR: exec_cmd: vm set_idle_pc VTPClient2 0x60672c68 
+Jan 18 09:58:57.080 HYPERVISOR: exec_cmd: vm set_exec_area VTPClient2 64 
+Jan 18 09:58:57.112 HYPERVISOR: exec_cmd: vm set_config VTPClient2 configs/i17_startup-config.cfg 
+Jan 18 09:58:57.143 HYPERVISOR: exec_cmd: vm set_config VTPClient2 configs/i17_startup-config.cfg configs/i17_private-config.cfg 
+Jan 18 09:58:59.268 HYPERVISOR: exec_cmd: nio create_udp udp-5c4dc518-42ab-4bb6-83ee-6136d56c17a6 10040 127.0.0.1 10041 
+Jan 18 09:58:59.315 HYPERVISOR: exec_cmd: vm slot_add_nio_binding VTPClient2 1 2 udp-5c4dc518-42ab-4bb6-83ee-6136d56c17a6 
+Jan 18 09:58:59.346 HYPERVISOR: exec_cmd: vm get_status VTPClient2 
+Jan 18 09:58:59.393 HYPERVISOR: exec_cmd: nio create_udp udp-d86f1321-6e66-4bae-9e0c-4735e9762e92 10043 127.0.0.1 10042 
+Jan 18 09:58:59.424 HYPERVISOR: exec_cmd: vm slot_add_nio_binding VTPClient2 1 3 udp-d86f1321-6e66-4bae-9e0c-4735e9762e92 
+Jan 18 09:58:59.440 HYPERVISOR: exec_cmd: vm get_status VTPClient2 
+Jan 18 09:58:59.487 HYPERVISOR: exec_cmd: nio create_udp udp-7d67e967-1392-40d9-adb4-6374dfa52b3e 10045 127.0.0.1 10044 
+Jan 18 09:58:59.518 HYPERVISOR: exec_cmd: vm slot_add_nio_binding VTPClient2 1 14 udp-7d67e967-1392-40d9-adb4-6374dfa52b3e 
+Jan 18 09:58:59.549 HYPERVISOR: exec_cmd: vm get_status VTPClient2 
+Jan 18 10:00:42.103 HYPERVISOR: exec_cmd: vm extract_config VTPClient2 

@@ -1,12 +1,12 @@
-Jan 17 23:24:15.710 HYPERVISOR: Release 0.2.14-x86/Windows (tag 2014092320)
-Jan 17 23:24:15.711 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 16396.
-Jan 17 23:24:16.352 HYPERVISOR: exec_cmd: hypervisor version 
-Jan 17 23:24:16.379 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\Edonis Karaçica\Desktop\Tema e Diplomes\Rrjeta\Aeroporti i Prishtines\project-files\dynamips 
-Jan 17 23:24:16.379 GENERAL: working_dir=C:\Users\Edonis Karaçica\Desktop\Tema e Diplomes\Rrjeta\Aeroporti i Prishtines\project-files\dynamips
-Jan 17 23:24:16.409 HYPERVISOR: exec_cmd: ethsw create SW4 
-Jan 17 23:24:17.182 HYPERVISOR: exec_cmd: nio create_gen_eth generic_ethernet-c21b928a-1bec-4d90-bfdc-ea9b572dc72f \Device\NPF_{5308ECCD-8D7B-4DBE-8825-C3754EA17DB6} 
-Jan 17 23:24:17.294 HYPERVISOR: exec_cmd: ethsw add_nio SW4 generic_ethernet-c21b928a-1bec-4d90-bfdc-ea9b572dc72f 
-Jan 17 23:24:17.332 HYPERVISOR: exec_cmd: ethsw set_access_port SW4 generic_ethernet-c21b928a-1bec-4d90-bfdc-ea9b572dc72f 1 
-Jan 17 23:24:18.386 HYPERVISOR: exec_cmd: nio create_udp udp-1adb979f-8e63-4a2a-aaf2-f159093df04e 10039 127.0.0.1 10038 
-Jan 17 23:24:18.410 HYPERVISOR: exec_cmd: ethsw add_nio SW4 udp-1adb979f-8e63-4a2a-aaf2-f159093df04e 
-Jan 17 23:24:18.443 HYPERVISOR: exec_cmd: ethsw set_dot1q_port SW4 udp-1adb979f-8e63-4a2a-aaf2-f159093df04e 1 
+Jan 18 09:58:56.158 HYPERVISOR: Release 0.2.14-x86/Windows (tag 2014092320)
+Jan 18 09:58:56.174 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 17047.
+Jan 18 09:58:56.674 HYPERVISOR: exec_cmd: hypervisor version 
+Jan 18 09:58:56.705 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\Edonis Karaçica\Desktop\Tema e Diplomes\ANPNetworkGNS3\Aeroporti i Prishtines\project-files\dynamips 
+Jan 18 09:58:56.705 GENERAL: working_dir=C:\Users\Edonis Karaçica\Desktop\Tema e Diplomes\ANPNetworkGNS3\Aeroporti i Prishtines\project-files\dynamips
+Jan 18 09:58:56.924 HYPERVISOR: exec_cmd: ethsw create SW4 
+Jan 18 09:58:57.877 HYPERVISOR: exec_cmd: nio create_gen_eth generic_ethernet-ea3145a4-9a74-474d-99c5-1302c0d31fce \Device\NPF_{5308ECCD-8D7B-4DBE-8825-C3754EA17DB6} 
+Jan 18 09:58:57.971 HYPERVISOR: exec_cmd: ethsw add_nio SW4 generic_ethernet-ea3145a4-9a74-474d-99c5-1302c0d31fce 
+Jan 18 09:58:58.034 HYPERVISOR: exec_cmd: ethsw set_access_port SW4 generic_ethernet-ea3145a4-9a74-474d-99c5-1302c0d31fce 1 
+Jan 18 09:58:59.174 HYPERVISOR: exec_cmd: nio create_udp udp-75d44b0a-cdad-4f0f-b3b7-f76bcea46350 10039 127.0.0.1 10038 
+Jan 18 09:58:59.205 HYPERVISOR: exec_cmd: ethsw add_nio SW4 udp-75d44b0a-cdad-4f0f-b3b7-f76bcea46350 
+Jan 18 09:58:59.237 HYPERVISOR: exec_cmd: ethsw set_dot1q_port SW4 udp-75d44b0a-cdad-4f0f-b3b7-f76bcea46350 1 

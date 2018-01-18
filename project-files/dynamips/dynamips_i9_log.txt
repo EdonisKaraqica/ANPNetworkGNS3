@@ -1,33 +1,34 @@
-Jan 17 23:24:14.484 HYPERVISOR: Release 0.2.14-x86/Windows (tag 2014092320)
-Jan 17 23:24:14.485 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 16382.
-Jan 17 23:24:14.628 HYPERVISOR: exec_cmd: hypervisor version 
-Jan 17 23:24:14.657 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\Edonis Karaçica\Desktop\Tema e Diplomes\Rrjeta\Aeroporti i Prishtines\project-files\dynamips 
-Jan 17 23:24:14.657 GENERAL: working_dir=C:\Users\Edonis Karaçica\Desktop\Tema e Diplomes\Rrjeta\Aeroporti i Prishtines\project-files\dynamips
-Jan 17 23:24:14.685 HYPERVISOR: exec_cmd: vm create VTPServer1 15 c3600 
-Jan 17 23:24:14.687 VM: VM VTPServer1 created.
-Jan 17 23:24:14.711 HYPERVISOR: exec_cmd: vm set_con_tcp_port VTPServer1 5008 
-Jan 17 23:24:14.737 HYPERVISOR: exec_cmd: c3600 get_mac_addr VTPServer1 
-Jan 17 23:24:14.763 HYPERVISOR: exec_cmd: vm set_ios VTPServer1 C:/Users/Edonis Karaçica/GNS3/images/IOS/c3640-ik9o3s-mz124-13.image 
-Jan 17 23:24:14.787 HYPERVISOR: exec_cmd: vm get_status VTPServer1 
-Jan 17 23:24:14.817 HYPERVISOR: exec_cmd: vm slot_add_binding VTPServer1 2 0 NM-1E 
-Jan 17 23:24:14.842 HYPERVISOR: exec_cmd: vm get_status VTPServer1 
-Jan 17 23:24:14.866 HYPERVISOR: exec_cmd: vm slot_add_binding VTPServer1 0 0 NM-1FE-TX 
-Jan 17 23:24:14.894 HYPERVISOR: exec_cmd: vm get_status VTPServer1 
-Jan 17 23:24:14.950 HYPERVISOR: exec_cmd: vm set_idle_pc VTPServer1 0x60672c68 
-Jan 17 23:24:14.981 HYPERVISOR: exec_cmd: vm set_disk0 VTPServer1 1 
-Jan 17 23:24:15.045 HYPERVISOR: exec_cmd: vm set_ram VTPServer1 256 
-Jan 17 23:24:15.117 HYPERVISOR: exec_cmd: vm set_exec_area VTPServer1 64 
-Jan 17 23:24:15.326 HYPERVISOR: exec_cmd: vm get_status VTPServer1 
-Jan 17 23:24:15.355 HYPERVISOR: exec_cmd: vm slot_add_binding VTPServer1 1 0 NM-16ESW 
-Jan 17 23:24:15.406 HYPERVISOR: exec_cmd: c3600 set_mac_addr VTPServer1 cc0f.0480.0000 
-Jan 17 23:24:15.431 HYPERVISOR: exec_cmd: vm set_nvram VTPServer1 256 
-Jan 17 23:24:15.466 HYPERVISOR: exec_cmd: vm set_config VTPServer1 configs/i15_startup-config.cfg 
-Jan 17 23:24:17.845 HYPERVISOR: exec_cmd: nio create_udp udp-6f8562a1-5bc4-4f34-95d7-5d2fa4487551 10022 127.0.0.1 10023 
-Jan 17 23:24:17.888 HYPERVISOR: exec_cmd: vm slot_add_nio_binding VTPServer1 1 0 udp-6f8562a1-5bc4-4f34-95d7-5d2fa4487551 
-Jan 17 23:24:17.921 HYPERVISOR: exec_cmd: vm get_status VTPServer1 
-Jan 17 23:24:17.952 HYPERVISOR: exec_cmd: nio create_udp udp-283b8fe3-7bfc-4043-86d0-bb4d0477f1b3 10025 127.0.0.1 10024 
-Jan 17 23:24:17.980 HYPERVISOR: exec_cmd: vm slot_add_nio_binding VTPServer1 1 1 udp-283b8fe3-7bfc-4043-86d0-bb4d0477f1b3 
-Jan 17 23:24:18.037 HYPERVISOR: exec_cmd: vm get_status VTPServer1 
-Jan 17 23:24:18.458 HYPERVISOR: exec_cmd: nio create_udp udp-ce30ff6a-ca6e-4c84-ac69-02f364b963cc 10041 127.0.0.1 10040 
-Jan 17 23:24:18.493 HYPERVISOR: exec_cmd: vm slot_add_nio_binding VTPServer1 1 2 udp-ce30ff6a-ca6e-4c84-ac69-02f364b963cc 
-Jan 17 23:24:18.522 HYPERVISOR: exec_cmd: vm get_status VTPServer1 
+Jan 18 09:58:55.049 HYPERVISOR: Release 0.2.14-x86/Windows (tag 2014092320)
+Jan 18 09:58:55.049 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 17033.
+Jan 18 09:58:55.174 HYPERVISOR: exec_cmd: hypervisor version 
+Jan 18 09:58:55.205 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\Edonis Karaçica\Desktop\Tema e Diplomes\ANPNetworkGNS3\Aeroporti i Prishtines\project-files\dynamips 
+Jan 18 09:58:55.205 GENERAL: working_dir=C:\Users\Edonis Karaçica\Desktop\Tema e Diplomes\ANPNetworkGNS3\Aeroporti i Prishtines\project-files\dynamips
+Jan 18 09:58:55.237 HYPERVISOR: exec_cmd: vm create VTPServer1 15 c3600 
+Jan 18 09:58:55.237 VM: VM VTPServer1 created.
+Jan 18 09:58:55.252 HYPERVISOR: exec_cmd: vm set_con_tcp_port VTPServer1 5008 
+Jan 18 09:58:55.283 HYPERVISOR: exec_cmd: c3600 get_mac_addr VTPServer1 
+Jan 18 09:58:55.315 HYPERVISOR: exec_cmd: vm set_disk0 VTPServer1 1 
+Jan 18 09:58:55.346 HYPERVISOR: exec_cmd: c3600 set_mac_addr VTPServer1 cc0f.0480.0000 
+Jan 18 09:58:55.362 HYPERVISOR: exec_cmd: vm set_ios VTPServer1 C:/Users/Edonis Karaçica/GNS3/images/IOS/c3640-ik9o3s-mz124-13.image 
+Jan 18 09:58:55.408 HYPERVISOR: exec_cmd: vm get_status VTPServer1 
+Jan 18 09:58:55.424 HYPERVISOR: exec_cmd: vm slot_add_binding VTPServer1 2 0 NM-1E 
+Jan 18 09:58:55.455 HYPERVISOR: exec_cmd: vm set_ram VTPServer1 256 
+Jan 18 09:58:55.487 HYPERVISOR: exec_cmd: vm get_status VTPServer1 
+Jan 18 09:58:55.502 HYPERVISOR: exec_cmd: vm slot_add_binding VTPServer1 1 0 NM-16ESW 
+Jan 18 09:58:55.549 HYPERVISOR: exec_cmd: vm set_nvram VTPServer1 256 
+Jan 18 09:58:55.612 HYPERVISOR: exec_cmd: vm get_status VTPServer1 
+Jan 18 09:58:55.643 HYPERVISOR: exec_cmd: vm slot_add_binding VTPServer1 0 0 NM-1FE-TX 
+Jan 18 09:58:55.705 HYPERVISOR: exec_cmd: vm get_status VTPServer1 
+Jan 18 09:58:55.768 HYPERVISOR: exec_cmd: vm set_idle_pc VTPServer1 0x60672c68 
+Jan 18 09:58:55.799 HYPERVISOR: exec_cmd: vm set_exec_area VTPServer1 64 
+Jan 18 09:58:55.846 HYPERVISOR: exec_cmd: vm set_config VTPServer1 configs/i15_startup-config.cfg 
+Jan 18 09:58:58.533 HYPERVISOR: exec_cmd: nio create_udp udp-ce5928bc-2001-44fe-9491-c9c204bb3aa9 10022 127.0.0.1 10023 
+Jan 18 09:58:58.580 HYPERVISOR: exec_cmd: vm slot_add_nio_binding VTPServer1 1 0 udp-ce5928bc-2001-44fe-9491-c9c204bb3aa9 
+Jan 18 09:58:58.612 HYPERVISOR: exec_cmd: vm get_status VTPServer1 
+Jan 18 09:58:58.658 HYPERVISOR: exec_cmd: nio create_udp udp-4bcf6802-3c72-459f-8760-24132235915a 10025 127.0.0.1 10024 
+Jan 18 09:58:58.737 HYPERVISOR: exec_cmd: vm slot_add_nio_binding VTPServer1 1 1 udp-4bcf6802-3c72-459f-8760-24132235915a 
+Jan 18 09:58:58.783 HYPERVISOR: exec_cmd: vm get_status VTPServer1 
+Jan 18 09:58:59.299 HYPERVISOR: exec_cmd: nio create_udp udp-cc6a5580-e027-45a8-b25e-2d1b50dd3c5c 10041 127.0.0.1 10040 
+Jan 18 09:58:59.346 HYPERVISOR: exec_cmd: vm slot_add_nio_binding VTPServer1 1 2 udp-cc6a5580-e027-45a8-b25e-2d1b50dd3c5c 
+Jan 18 09:58:59.362 HYPERVISOR: exec_cmd: vm get_status VTPServer1 
+Jan 18 10:00:42.197 HYPERVISOR: exec_cmd: vm extract_config VTPServer1 
